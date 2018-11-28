@@ -1,9 +1,13 @@
 require 'pry'
 
 class Artist
+<<<<<<< HEAD
   extend Memorable::ClassMems
   include Memorable::InstanceMems
   extend Findable
+=======
+  extend Memorable
+>>>>>>> c4f9ad5af2c7e3015d9a31dc48990dc1e6aefa29
   
   attr_accessor :name
   attr_reader :songs
